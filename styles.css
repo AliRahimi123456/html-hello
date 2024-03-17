@@ -1,0 +1,59 @@
+body {
+    background-color: black;
+}
+
+.card {
+    background-color: white;
+    width: 400px;
+    height: 500px;
+    margin: auto;
+    margin-top: 50px;
+
+}
+
+.image1 {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.header-symbol {
+    display: flex;
+    align-items: center;
+    border: blue dashed 2px;
+    width: 9%;
+    height: 50px;
+    float: left;
+    text-align: center;
+}
+
+.header-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: red dashed 2px;
+    width: 80%;
+    height: 50px;
+    float: left;
+}
+
+.header-menu {
+    border: green dashed 2px;
+    width: 8%;
+    height: 50px;
+    float: left;
+
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons-left {
+    display: flex;
+
+    .icon {
+        padding-right: 8px;
+    }
+}
